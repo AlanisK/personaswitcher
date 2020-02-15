@@ -9,7 +9,7 @@ before_install:
 script:
   - web-ext lint
   - web-ext build
-  - sonar-scanner -Dsonar.projectKey=persona
+  - sonar-scanner
 
 addons:
   sonarcloud:
